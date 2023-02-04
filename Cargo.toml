@@ -5,6 +5,8 @@ edition = "2021"
 
 [dependencies]
 prisma-client-rust = { git = "https://github.com/Brendonovich/prisma-client-rust", tag = "0.6.4" }
+serde = "1.0.152"
+tokio = { version = "1", features = ["full"] }
 
 [workspace]
 members = [

@@ -13,4 +13,5 @@ datasource db {
 
 model pod {
   id String @id @default(uuid())
+  name String
 }
